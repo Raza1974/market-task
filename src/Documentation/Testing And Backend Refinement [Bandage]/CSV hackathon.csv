@@ -1,0 +1,7 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result, Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Responsiveness on mobile,Check the website on multiple devices  >  Check layout,Layout adjust for all the sizes,Layout is responsive as expected,Passed,High,-,Work as expected
+TC002,Filter Products,Test all the functionality of the filter component,List of product filter by selecting options,Products are filter perfectly,Passed,High,-,Work as expected
+TC003,Check Cart Items saved on local host,Check the cart by refreshing it multiple time,Cart items remains unchanged,Cart items cannot change,Passed,High,-,Work as expected
+TC004,Real time changes from sanity,I change the details of products in sanity and publish it,Product details change ,All changes work,Passed,High,-,Work as expected
+TC005,Shipping details send correctly,I have created a drawer which willl show all shipping details when user submit the form,Exact details show with shipping id without any error ,All the details show as users provide in the form,Passed,Medium,-,Work as expected
+TC006,Test Api error handling,Disconnect the api and reload the page,show fallback ui with error message,Error show with message,Passed,High,-,Work as expected
